@@ -22,6 +22,7 @@
       extend: {
         colors: {
           'btn_color01': '#E76F51',
+          'color01': '#E76F51',
           
         }
       }
@@ -41,7 +42,7 @@
   <body class="font-poppins">
     <header class=" md:container mx-auto">
       <!-- nav bar -->
-      <div class="navbar bg-base-100">
+      <div class="navbar bg-base-100 mb-12 mt-6">
         <div class="flex-1 ">
           <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -163,8 +164,8 @@
     </header>
 
     <main class="md:container mx-auto">
-
-      <section class="mt-32">
+  <!-- bike card -->
+      <section class="mt-32 mb-32">
         <h1 class="font-semibold text-4xl text-center mb-10">latest News</h1>
 
         <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
@@ -214,15 +215,176 @@
           
          </div>
       
-      
+    
       </section>
 
- 
+ <!-- review section -->
+ <section class="max-w-5xl mx-auto">
+  <h1 class="font-semibold text-4xl text-center mb-10">Happy <span class="text-color01">Clients says</span></h1>
+
+  <div class="grid xl:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
+    <div class="card bg-base-100  shadow-xl">
+      <figure>
+        <img
+          src="images/others/user-1.png"
+          alt="Shoes" 
+          class="max-w-36 m-7"/>
+      </figure>
+      <div class="card-body text-center">
+        
+        <p class="mb-6">Slate helps you see how 
+          many more days you need 
+          to work to reach your financial 
+          goal for the month and year.</p>
+          <div class="space-y-4">
+            <div class="flex justify-center">
+              <img src="images/icons/star-solid.svg" alt="" class="max-w-6">
+              <img src="images/icons/star-solid.svg" alt="" class="max-w-6">
+              <img src="images/icons/star-solid.svg" alt="" class="max-w-6">
+              <img src="images/icons/star-solid.svg" alt="" class="max-w-6">
+              <img src="images/icons/star-regular.svg" alt="" class="max-w-6">
+            </div>
+            <p class="text-blue-500">Regina Miles</p>
+            <p>Banker</p>
+          </div>
+      </div>
+    </div>
+    <div class="card bg-base-100  shadow-xl text-center" >
+      <figure>
+        <img
+           src="images/others/user-2.png"
+          alt="Shoes"  class="max-w-36 m-7"/>
+      </figure>
+      <div class="card-body ">
+       
+        <p class="mb-6">Slate helps you see how 
+          many more days you need 
+          to work to reach your financial 
+          goal for the month and year.</p>
+          <div class="space-y-4">
+            <div class="flex justify-center">
+              <img src="images/icons/star-solid.svg" alt="" class="max-w-6">
+              <img src="images/icons/star-solid.svg" alt="" class="max-w-6">
+              <img src="images/icons/star-solid.svg" alt="" class="max-w-6">
+              <img src="images/icons/star-solid.svg" alt="" class="max-w-6">
+              <img src="images/icons/star-regular.svg" alt="" class="max-w-6">
+            </div>
+            <p class="text-blue-500">Regina Miles</p>
+            <p>Banker</p>
+          </div>
+      </div>
+    </div>
+    <div class="card bg-base-100 shadow-xl ">
+      <figure>
+        <img
+           src="images/others/user-3.png"
+          alt="Shoes"  class="max-w-36 m-7 "/>
+      </figure>
+      <div class="card-body text-center">
+       
+        <p class="mb-6">Slate helps you see how 
+          many more days you need 
+          to work to reach your financial 
+          goal for the month and year.</p>
+          <div class="space-y-4">
+          <div class="flex justify-center">
+            <img src="images/icons/star-solid.svg" alt="" class="max-w-6">
+            <img src="images/icons/star-solid.svg" alt="" class="max-w-6">
+            <img src="images/icons/star-solid.svg" alt="" class="max-w-6">
+            <img src="images/icons/star-half-stroke-solid.svg" alt="" class="max-w-6">
+            <img src="images/icons/star-regular.svg" alt="" class="max-w-6">
+          </div>
+          <p class="text-blue-500">Regina Miles</p>
+          <p>Banker</p>
+        </div>
+      </div>
+    </div>
+    
+   </div>
+
+ </section>
+
+<!-- faq part -->
+ <section class="mt-32 mb-32">
+<h1 class="font-semibold text-4xl text-center mb-10">Frequently Asked  <span class="text-color01">Questions</span></h1>
+
+ <div class="xl:flex flex-row">
+
+  <div class="xl:w-1/2 w-full justify-items-end ">
+   <img src="images/others/faq.png" alt="" srcset="" class=" xl:mr-24  xl:mb-0 mb-10">
+  </div>
+
+  <div class="space-y-5 xl:w-1/2 w-full">
+    <div tabindex="0" class="collapse collapse-arrow border-base-300 shadow-lg border ">
+      <div class="collapse-title text-xl font-medium xl:h-20 h-28">What are the most important things I should
+        know about riding a bike?</div>
+      <div class="collapse-content">
+        <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+      </div>
+    </div>
+    <div tabindex="0" class="collapse collapse-arrow border-base-300 shadow-lg border">
+      <div class="collapse-title text-xl font-medium xl:h-20 h-28">How can I tell if my helmet is old and I need a 
+        new one?</div>
+      <div class="collapse-content">
+        <p>Helmet is must thing while riding bikes</p>
+      </div>
+    </div>
+    <div tabindex="0" class="collapse collapse-arrow border-base-300 shadow-lg border">
+      <div class="collapse-title text-xl font-medium xl:h-20 h-28">My bike has been in storage is it safe to ride?</div>
+      <div class="collapse-content">
+        <p>Yes</p>
+      </div>
+    </div>
+    <div tabindex="0" class="collapse collapse-arrow border-base-300 shadow-lg border">
+      <div class="collapse-title text-xl font-medium xl:h-20 h-28">What rules should I follow when riding my bike?</div>
+      <div class="collapse-content">
+        <p>Follow Traffic Rules</p>
+      </div>
+    </div>
+  </div>
+
+ </div>
 
 
+ </section>
 
     </main>
 
-    <footer></footer>
-  </body
+  
+
+    <footer class="bg-black " >
+      <section class="footer container mx-auto text-neutral-content p-10  justify-between">
+        <aside class="space-y-6">
+          <ul class="xl:flex flex-row gap-6">
+          <li class="text-base font-regular">Download Now</li>
+          <li class="text-base font-regular">License</li>
+          </ul>
+          <ul class="xl:flex flex-row   gap-6 ">
+          <li class="text-base font-regular">About</li> 
+          <li class="text-base font-regular">Features</li>
+          <li class="text-base font-regular">Pricing</li>
+          <li class="text-base font-regular">Careers</li>
+          <li class="text-base font-regular">Help</li>
+          <li class="text-base font-regular">Privacy Policy</li>
+          </ul>
+          
+          <p class="text-md font-regular">© 2020 bike. All rights reserved</p>
+        </aside>
+        <nav>
+          <h6 class="footer-title">Get the App</h6>
+          <div class="grid grid-cols-1 gap-4">
+            <a>
+              <img src="images/others/ios.png" alt="" srcset="" class="max-w-32">
+            </a>
+            <a>
+              <img src="images/others/android.png" alt="" srcset="" class="max-w-32">
+            </a>
+          </div>
+        </nav>
+      </section>
+      
+    </footer>
+
+
+  </body>
 </html>
